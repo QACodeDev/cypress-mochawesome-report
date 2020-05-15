@@ -61,6 +61,7 @@ For upload of results in cypress dashboard :
 * HTML reports are created under the path: ```cypress-mochawesome-report/cypress/reports/```
 
 * If you record the execution then all reports would be saved on your cypress dashboard account:
+
 ![cypress dashboard](/cypress_dashboard.png)
 
 ## References
