@@ -8,10 +8,11 @@ This is a project which you can use to start your E2E testing with mochawesome r
 - Merging all json reports into single report
 - Generating HTML report from the merged json file
 
-### Cypress version : 4.5.0
-### mocha : 7.1.2
-### mochawesome : 6.1.1
-### mochawesome-merge : 4.0.3
+### Dependencies
+- Cypress version : 4.5.0
+- mocha : 7.1.2
+- mochawesome : 6.1.1
+- mochawesome-merge : 4.0.3
 
 # Installation  
 
@@ -46,8 +47,6 @@ For upload of results in cypress dashboard :
 
 # Test debugging/Reports:
 
-## Local System
-
 * During test execution locally if any test fails, screenshot with execution log will be taken for that. Screenshots will be available under the path: ```cypress-mochawesome-report/cypress/reports/mochawesome-report/assests``` 
 
 * json reports are created under the path: ```cypress-mochawesome-report/cypress/reports/mochawesome-report``` 
@@ -58,7 +57,7 @@ For upload of results in cypress dashboard :
 
 ## References
 
-[mochawesome](https://github.com/adamgruber/mochawesome)
-[mochawesome merge](https://github.com/Antontelesh/mochawesome-merge)
-[mochawesome report generator](https://github.com/adamgruber/mochawesome-report-generator)
+- [mochawesome](https://github.com/adamgruber/mochawesome)
+- [mochawesome merge](https://github.com/Antontelesh/mochawesome-merge)
+- [mochawesome report generator](https://github.com/adamgruber/mochawesome-report-generator)
 
