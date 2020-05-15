@@ -1,0 +1,26 @@
+{
+  "name": "cypress-mochaawesome-report",
+  "description": "This is a project for creating a HTML report by mochawesome",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:version": "cypress version",
+    "cy:open": "cypress open",
+    "cy:record": "cypress run --record <record_key>",
+    "cy:chrome": "cypress run -b chrome",
+    "cy:headless": "cypress run",
+    "cleanup": "rm -fr cypress/reports/mochawesome-html-report",
+    "merge_reports": "mochawesome-merge cypress/reports/mochawesome-report/*.json > output.json",
+    "mochawesome_report": "marge --reportDir cypress/reports/mochawesome-html-report -t Cypress_Test_Report -p Cypress_HMTL_Report -f Cypress_HMTL_Report --timestamp mmddyyyy_HHMMss --charts true output.json",
+    "cy:report": "npm run cleanup && cypress run && npm run merge_reports && npm run mochawesome_report"
+  },
+  "author": "Mohd Nazim",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "mocha": "^7.1.2",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.0.3"
+  },
+  "keywords": []
+}
