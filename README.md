@@ -43,6 +43,8 @@ For upload of results in cypress dashboard :
 * Under the project directory run the following npm command: `npm run cy:open`
 ### Using CLI - Headless mode:
 * Under the project directory run the following npm command: `npm run cy:headless`
+### Using CLI - Record mode:
+* Under the project directory run the following npm command: `npm run cy:record`
 ### Using CLI - Chrome browser:
 * Under the project directory run the following npm command: `npm run cy:chrome`
 ### Using CLI - generate HMTL mochawesome report:
