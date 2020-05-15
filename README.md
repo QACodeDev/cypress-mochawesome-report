@@ -50,7 +50,7 @@ For upload of results in cypress dashboard :
 
 # Test debugging/Reports:
 
-* During test execution locally if any test fails, screenshot with execution log will be taken for that. Screenshots will be available under the path: ```cypress-mochawesome-report/cypress/reports/mochawesome-report/assests``` 
+* During test execution locally if any test fails, screenshot with execution log will be taken for that. Screenshots will be available under the path: ```cypress-mochawesome-report/cypress/reports/mochawesome-report/assets``` 
 
 * json reports are created under the path: ```cypress-mochawesome-report/cypress/reports/mochawesome-report``` 
 
