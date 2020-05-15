@@ -14,6 +14,9 @@ This is a project which you can use to start your E2E testing with mochawesome r
 - mochawesome : 6.1.1
 - mochawesome-merge : 4.0.3
 
+### HMTL Report Sample:
+![mochawesome report](/mochawesome_report.png)
+
 # Installation  
 
 1. Create a project directory and Clone the project: 
