@@ -2,9 +2,8 @@
 
 # Cypress E2E testing with mochawesome report
 
-This is a project which you can use to start your E2E testing with mochaawesome report
+This is a project which you can use to start your E2E testing with mochawesome report
 
-- Creation of beautiful mochawesome HTML report
 - Generating seperate json report for each test
 - Merging all json reports into single report
 - Generating HTML report from the merged json file
@@ -31,6 +30,7 @@ In order to start using this project. You will have to do the following steps:
 For upload of results in cypress dashboard :
 
  Enter <project_ID> in the cypress.json
+ 
  Enter <record_key> in the package.json under scripts sections.
 
 ## **Mulitple ways to execute the tests**:
@@ -54,7 +54,7 @@ For upload of results in cypress dashboard :
 
 * By default capturing test videos is turned off by the ```cypress.json```. If needed, can be possible to turn it on there.if enabled the you can find videos under the path:```cypress-mochawesome-report/cypress/videos``` 
 
-* HTML reports are created under the path: ```cypress-mochawesome-report/cypress/reports/
+* HTML reports are created under the path: ```cypress-mochawesome-report/cypress/reports/```
 
 ## References
 
