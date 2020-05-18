@@ -8,6 +8,9 @@ This is a project which you can use to start your E2E testing with mochawesome r
 - Merging all json reports into single report
 - Generating HTML report from the merged json file
 
+# Pre-requisite
+### Node js should instaled
+### npm should be installed
 ### Dependencies
 - Cypress version : 4.5.0
 - mocha : 7.1.2
