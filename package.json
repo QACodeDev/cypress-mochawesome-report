@@ -18,7 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^4.5.0",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "mochawesome": "^6.1.1",
     "mochawesome-merge": "^4.0.3"
   },
